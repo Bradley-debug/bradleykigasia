@@ -486,38 +486,36 @@ Footer START -->
 			<div class="col-lg-6">
 				<h2 class="display-7">Say hi by filling the form out below<span class="text-primary">.</span></h2>
 					<!-- Form START -->
-				<form class="contact-form form-line mt-5" id="contact-form" >
-					<div>
-						<!-- name -->
-						My name is
-						<span class="mb-3 d-inline-block">
-							<input required id="con-name" name="name" type="text" class="form-control mb-0 pb-0" placeholder="">
-						</span>
-						<!-- email -->
-						, my email address is
-						<span class="mb-3 d-inline-block">
-							<input required id="con-email" name="email" type="email" class="form-control mb-0 pb-0" placeholder="">
-						</span>
-						<!-- Subject -->
-						, I am contacting you regarding
-						<span class="mb-3 d-inline-block">
-							<input required id="con-subject" name="subject" type="text" class="form-control mb-0 pb-0" placeholder="">
-						</span>
-						.
-						<br>
-						<!-- Message -->
-						I want to tell you that:
-						<span class="mb-3 d-block">
-							<textarea required id="con-message" name="message" cols="40" rows="3" class="form-control" placeholder=""></textarea>
-						</span>
-						<!-- submit button -->
-						
-						
-					</div>
-				</form>
-				<div class="text-start">
-					<a href="alert.html"> <button class="btn btn-primary btn-line">Knock up my Inbox</button> </a>
-				</div>
+				<form class="contact-form form-line mt-5" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+						<!-- Web3Forms Access Key -->
+						<input type="hidden" name="access_key" value="db38a170-a8aa-44f4-9301-d24f5e09cf24">
+					
+						<div>
+							My name is
+							<span class="mb-3 d-inline-block">
+								<input required id="con-name" name="name" type="text" class="form-control mb-0 pb-0" placeholder="">
+							</span>
+							, my email address is
+							<span class="mb-3 d-inline-block">
+								<input required id="con-email" name="email" type="email" class="form-control mb-0 pb-0" placeholder="">
+							</span>
+							, I am contacting you regarding
+							<span class="mb-3 d-inline-block">
+								<input required id="con-subject" name="subject" type="text" class="form-control mb-0 pb-0" placeholder="">
+							</span>
+							.
+							<br>
+							I want to tell you that:
+							<span class="mb-3 d-block">
+								<textarea required id="con-message" name="message" cols="40" rows="3" class="form-control" placeholder=""></textarea>
+							</span>
+						</div>
+					
+						<!-- Submit Button -->
+						<div class="text-start">
+							<button type="submit" class="btn btn-primary btn-line">Knock up my Inbox</button>
+						</div>
+					</form>
 				
 				<!-- Form END -->
 
