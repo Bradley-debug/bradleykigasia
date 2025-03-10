@@ -1,35 +1,3 @@
-/**
-* Folio - Creative Agency Portfolio Theme
-*
-* @author Webestica (https://www.webestica.com/)
-* @version 1.2.3
-**/
-
-
-/* ===================
-Table Of Content
-======================
-01 PRELOADER
-02 CUSTOM CURSOR
-03 MEGA MENU
-04 STICKY HEADER
-05 TINY SLIDER
-06 PARALLAX BACKGROUND
-07 MARQUEE ANIMATION
-08 AOS ANIMATION
-09 TILT ANIMATION
-10 STICKY BAR
-11 FORM VALIDATION
-12 TOOLTIP
-13 POPOVER
-14 BACK TO TOP
-15 STICKY FOOTER
-16 GLIGHTBOX
-17 ACTIVE CLASS
-18 TYPING TEXT ANIMATION
-19 ISOTOPE
-====================== */
-
 "use strict";
 !function () {
 
